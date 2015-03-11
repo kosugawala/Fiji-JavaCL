@@ -17,7 +17,7 @@ import ij.plugin.PlugIn;
  *
  * @author Ko Sugawara
  */
-public class Fiji_OpenCL implements PlugIn {
+public class Fiji_JavaCL implements PlugIn {
 
 	@Override
 	public void run(String arg) {
@@ -48,7 +48,7 @@ public class Fiji_OpenCL implements PlugIn {
         // Read the program sources and compile them :
         String src;
 		try {
-			src = IOUtils.readText(Fiji_OpenCL.class.getResource("TutorialKernels.cl"));
+			src = IOUtils.readText(Fiji_JavaCL.class.getResource("TutorialKernels.cl"));
 	        CLProgram program = context.createProgram(src);
 
 	        // Get and call the kernel :

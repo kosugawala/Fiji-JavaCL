@@ -13,7 +13,7 @@
 
 	<version>0.1.0-SNAPSHOT</version>
 
-	<name>plugins/Fiji_OpenCL.jar</name>
+	<name>plugins/Fiji_JavaCL.jar</name>
 	<description>OpenCL Bindings for Fiji</description>
 
 	<developers>
@@ -117,5 +117,5 @@
 		</pluginManagement>
 	</build>
 
-	<artifactId>Fiji_OpenCL</artifactId>
+	<artifactId>Fiji_JavaCL</artifactId>
 </project>
